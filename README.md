@@ -23,14 +23,6 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh</code>
 </pre>
 
-<ol start="3">
-    <li>Abra as portas necessárias na máquina master no site do AWS, a porta 2377 e tambem 4500 com o protocolo tcp e a origem 0.0.0.0/0 </li>
-</ol>
-
-<ol start="4">
-    <li>Faça um Ip elástico para cada máquina, é aquele que se mantem mesmo depois que a máquina reinicia</li>
-</ol>
-
 <ol start="5">
     <li>Nomeie a máquina master da seguinte forma:</li>
 </ol>
